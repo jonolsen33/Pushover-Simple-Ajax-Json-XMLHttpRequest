@@ -5,3 +5,5 @@ data = "{*token*: *Your Token Here*, *user*: *Your User Key Here*, *title*: *Tit
 xhr.open "POST", url, true
 xhr.setRequestHeader "Content-type", "application/json"
 xhr.send REPLACE(data,"*",Chr(34))
+
+WScript.Sleep 1000
